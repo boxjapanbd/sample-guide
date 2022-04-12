@@ -6,7 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   lang: "ja-JP",
   title: "クイックスタートガイド",
   description: "Just playing around",
-  base: "/sample-guide/",
+  base: (process.env.NODE_ENV === "development") ? "/" : "/sample-guide/",
   // theme and its config
   theme: "@vuepress/theme-default",
   themeConfig: {
