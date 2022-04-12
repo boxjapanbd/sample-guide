@@ -1,6 +1,10 @@
 import { defineUserConfig } from "vuepress";
 import type { DefaultThemeOptions } from "vuepress";
 
+// import {navbar, sidebar} from "./configs"
+import {navbar} from "./configs/navbar";
+import {sidebar} from "./configs/sidebar";
+
 export default defineUserConfig<DefaultThemeOptions>({
   // site config
   lang: "ja-JP",
@@ -11,5 +15,14 @@ export default defineUserConfig<DefaultThemeOptions>({
   theme: "@vuepress/theme-default",
   themeConfig: {
     logo: "https://vuejs.org/images/logo.png",
+    navbar: navbar,
+    sidebar: sidebar
+    // navbar: [
+    //   {
+    //     text: "Guide",
+    //     link: "/guide/"
+    //   }
+    // ]
   },
+
 });
