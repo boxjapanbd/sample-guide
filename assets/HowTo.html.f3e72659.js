@@ -1,0 +1,1 @@
+const t={key:"v-d9c1224c",path:"/guide/HowTo.html",title:"how to",lang:"ja-JP",frontmatter:{},excerpt:"",headers:[{level:2,title:"test",slug:"test",children:[]}],git:{updatedTime:1649750632e3,contributors:[{name:"hiroyuki kobayashi",email:"hkobayashi@box.com",commits:1}]},filePathRelative:"guide/HowTo.md"};export{t as data};

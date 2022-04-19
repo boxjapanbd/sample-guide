@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a,d as s,e as r}from"./app.46c43f7b.js";const o={},c={id:"get-started",tabindex:"-1"},d=s("a",{class:"header-anchor",href:"#get-started","aria-hidden":"true"},"#",-1),_=r(" get started"),n=[d,_];function i(h,f){return t(),a("h1",c,n)}var g=e(o,[["render",i],["__file","getting-started.html.vue"]]);export{g as default};

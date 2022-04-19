@@ -1,0 +1,1 @@
+const a={key:"v-8daa1a0e",path:"/",title:"",lang:"ja-JP",frontmatter:{},excerpt:"",headers:[{level:3,title:"As Easy as 1, 2, 3",slug:"as-easy-as-1-2-3",children:[]}],git:{updatedTime:1649746047e3,contributors:[{name:"hiroyuki kobayashi",email:"hkobayashi@box.com",commits:4}]},filePathRelative:"README.md"};export{a as data};
